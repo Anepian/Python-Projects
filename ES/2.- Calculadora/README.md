@@ -24,5 +24,5 @@
 <img src="./Multiplicacion.png">
 
 ## Division.py
-<p>Este programa te solicita que ingreses dos números, al hacerlo te mostrará la división de dichos números.</p>
+<p>Este programa te solicita que ingreses dos números, al hacerlo te mostrará la divisin de dichos números.</p>
 <img src="./Division.png">
