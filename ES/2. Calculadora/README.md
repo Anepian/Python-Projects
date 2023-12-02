@@ -11,18 +11,18 @@
 </ol>
 
 
-## Suma.py
+## 1-Suma.py
 <p>Este programa te solicita que ingreses dos números, al hacerlo te mostrará la suma de dichos números.</p>
 <img src="./img/Suma.png">
 
-## Resta.py
+## 2-Resta.py
 <p>Este programa te solicita que ingreses dos números, al hacerlo te mostrará la resta de dichos números.</p>
 <img src="./img/Resta.png">
 
-## Multiplicacion.py
+## 3-Multiplicacion.py
 <p>Este programa te solicita que ingreses dos números, al hacerlo te mostrará la multiplicación de dichos números.</p>
 <img src="./img/Multiplicacion.png">
 
-## Division.py
+## 4-Division.py
 <p>Este programa te solicita que ingreses dos números, al hacerlo te mostrará la divisin de dichos números.</p>
 <img src="./img/Division.png">
