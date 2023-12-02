@@ -1,14 +1,14 @@
 # Calculadora
 
 <p>En este apartado, encontraras unos programas que realizan distintas operaciones matematicas:</p>
-<ul>
-  <li>1. Suma</li>
-  <li>2. Resta</li>
-  <li>3. Multiplicación</li>
-  <li>4. División</li>
-  <li>5. Calculadora sencilla</li>
-  <li>6. Calculadora compleja</li>
-</ul>
+<ol>
+  <li>Suma</li>
+  <li>Resta</li>
+  <li>Multiplicación</li>
+  <li>División</li>
+  <li>Calculadora sencilla</li>
+  <li>Calculadora compleja</li>
+</ol>
 
 
 ## Suma.py
