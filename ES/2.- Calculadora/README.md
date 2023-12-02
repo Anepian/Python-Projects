@@ -9,5 +9,5 @@
 <p>6.Calculadora compleja</p>
 
 ## Suma.py
-<p>Este programa te solicita que ingreses dos números, al hacerlo te mostrará la suma de dichos números.
+<p>Este programa te solicita que ingreses dos números, al hacerlo te mostrará la suma de dichos números.</p>
 <img src="./Suma.png">
