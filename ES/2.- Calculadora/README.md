@@ -14,3 +14,11 @@
 ## Suma.py
 <p>Este programa te solicita que ingreses dos números, al hacerlo te mostrará la suma de dichos números.</p>
 <img src="./Suma.png">
+
+## Resta.py
+<p>Este programa te solicita que ingreses dos números, al hacerlo te mostrará la resta de dichos números.</p>
+<img src="./Resta.png">
+
+## Multiplicacion.py
+<p>Este programa te solicita que ingreses dos números, al hacerlo te mostrará la multiplicación de dichos números.</p>
+<img src="./Multiplicacion.png">
