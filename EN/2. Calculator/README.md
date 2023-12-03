@@ -1,28 +1,28 @@
-# Calculadora
+# Calculator
 
-<p>En este apartado, encontraras unos programas que realizan distintas operaciones matematicas:</p>
+<p>In this section, you will find programs that perform different mathematical operations:</p>
 <ol>
-  <li>Suma</li>
-  <li>Resta</li>
-  <li>Multiplicación</li>
-  <li>División</li>
-  <li>Calculadora sencilla</li>
-  <li>Calculadora compleja</li>
+    <li>Addition</li>
+    <li>Subtraction</li>
+    <li>Multiplication</li>
+    <li>Division</li>
+    <li>Simple Calculator</li>
+    <li>Complex Calculator</li>
 </ol>
 
 
-## 1-Suma.py
-<p>Este programa te solicita que ingreses dos números, al hacerlo te mostrará la suma de dichos números.</p>
+## 1-Sum.py
+<p>This program prompts you to enter two numbers, and it will display the sum of those numbers.</p>
 <img src="./img/Sum.png">
 
-## 2-Resta.py
-<p>Este programa te solicita que ingreses dos números, al hacerlo te mostrará la resta de dichos números.</p>
+## 2-Subtraction.py
+<p>This program prompts you to enter two numbers, and it will display the subtraction of those numbers.</p>
 <img src="./img/Subtract.png">
 
-## 3-Multiplicacion.py
-<p>Este programa te solicita que ingreses dos números, al hacerlo te mostrará la multiplicación de dichos números.</p>
+## 3-Multiplication.py
+<p>This program prompts you to enter two numbers, and it will display the multiplication of those numbers.</p>
 <img src="./img/Multiply.png">
 
 ## 4-Division.py
-<p>Este programa te solicita que ingreses dos números, al hacerlo te mostrará la divisin de dichos números.</p>
+<p>This program prompts you to enter two numbers, and it will display the division of those numbers.</p>
 <img src="./img/Divide.png">
