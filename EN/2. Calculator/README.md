@@ -26,3 +26,11 @@
 ## 4-Divide.py
 <p>This program prompts you to enter two numbers, and it will display the division of those numbers.</p>
 <img src="./img/Divide.png">
+
+## 5-SimpleCalculator.py
+<p>This program represents a combination of the previous 4 programs, creating a user interface that presents the instructions for the user to follow in order to perform the desired operation.</p>
+<img src="./img/SimpleCalculator.png">
+
+## 6-ComplexCalculator.py
+<p>This program consists of a complex calculator in the terminal, where you can perform any of the 4 arithmetic operations mentioned before (Addition, Subtraction, Division, and Multiplication), with the option to save the result of the previous operation and use it for a new operation; it also allows an option to start from scratch and not continue with the result, and includes an option to exit the program.</p>
+<img src="./img/ComplexCalculator.png">
