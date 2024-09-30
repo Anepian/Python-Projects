@@ -1,12 +1,12 @@
 # Prime Numbers
 
-This folder contains a Python script to determine prime numbers and generate a list of prime numbers up to a given limit.
+This folder contains a Python script to determine if a number is prime.
 
 ## Files
 
-- `Primes.py`: Contains the functions `is_prime` and `primes_up_to`.
+- `Primes.py`: Contains the function `is_prime`.
 
-## Functions
+## Function
 
 ### `is_prime(number)`
 
@@ -17,18 +17,22 @@ Determines if a number is prime.
 - **Returns**:
   - `bool`: True if the number is prime, False otherwise.
 
-### `primes_up_to(n)`
+#### Description
 
-Generates a list of prime numbers up to a given number.
+A prime number is one that is only divisible by 1 and itself. This function checks if the given number meets this criterion.
 
-- **Args**:
-  - `n` (int): The upper limit to generate prime numbers.
-- **Returns**:
-  - `list`: A list of prime numbers up to the number n.
+#### Example Usage
 
-## Usage
+```python
+from Primes import is_prime
 
-1. Clone the repository:
-   ```sh
-   git clone <REPOSITORY_URL>
-   cd Python-Projects/EN/3.%20Prime%20Numbers
+print(is_prime(5))  # Output: True
+print(is_prime(4))  # Output: False
+
+Usage
+Clone the repository:
+git clone <REPOSITORY_URL>
+cd Python-Projects/EN/3.%20Prime%20Numbers
+
+Run the script:
+python Primes.py

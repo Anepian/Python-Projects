@@ -32,3 +32,19 @@ def primes_up_to(n):
         if is_prime(num):
             primes.append(num)
     return primes
+
+def main():
+    """
+    Main function to check if a user-provided number is prime.
+    """
+    try:
+        number = int(input("Enter a number to check if it is prime: "))
+        if is_prime(number):
+            print(f"{number} is a prime number.")
+        else:
+            print(f"{number} is not a prime number.")
+    except ValueError:
+        print("Please enter a valid integer.")
+
+if __name__ == "__main__":
+    main()

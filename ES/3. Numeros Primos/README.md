@@ -1,12 +1,12 @@
 # Números Primos
 
-Esta carpeta contiene un script en Python para determinar si un número es primo y generar una lista de números primos hasta un límite dado.
+Esta carpeta contiene un script en Python para determinar si un número es primo.
 
 ## Archivos
 
-- `Primos.py`: Contiene las funciones `es_primo` y `primos_hasta`.
+- `Primos.py`: Contiene la función `es_primo`.
 
-## Funciones
+## Función
 
 ### `es_primo(numero)`
 
@@ -17,18 +17,11 @@ Determina si un número es primo.
 - **Devuelve**:
   - `bool`: True si el número es primo, False en caso contrario.
 
-### `primos_hasta(n)`
+Para ejecutar el script Primos.py y verificar si un número es primo, sigue estos pasos:
 
-Genera una lista de números primos hasta un número dado.
+Clona el repositorio:
+git clone <URL_DEL_REPOSITORIO>
+cd Python-Projects/ES/3.%20Numeros%20Primos
 
-- **Argumentos**:
-  - `n` (int): El límite superior para generar números primos.
-- **Devuelve**:
-  - `list`: Una lista de números primos hasta el número n.
-
-## Uso
-
-1. Clona el repositorio:
-   ```sh
-   git clone <URL_DEL_REPOSITORIO>
-   cd Python-Projects/ES/3.%20Numeros%20Primos
+Ejecuta el script:
+python Primos.py

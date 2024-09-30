@@ -1,39 +1,50 @@
-def es_primo(numero):
+def is_prime(number):
     """
-    Determina si un número es primo.
+    Determines if a number is prime.
 
-    Un número primo es aquel que solo es divisible por 1 y por sí mismo.
+    A prime number is one that is only divisible by 1 and itself.
 
     Args:
-        numero (int): El número a verificar.
+        number (int): The number to check.
 
     Returns:
-        bool: True si el número es primo, False en caso contrario.
+        bool: True if the number is prime, False otherwise.
     """
-    if numero <= 1:
+    if number <= 1:
         return False
-    for i in range(2, int(numero ** 0.5) + 1):
-        if numero % i == 0:
+    for i in range(2, int(number ** 0.5) + 1):
+        if number % i == 0:
             return False
     return True
 
-def primos_hasta(n):
+def primes_up_to(n):
     """
-    Genera una lista de números primos hasta un número dado.
+    Generates a list of prime numbers up to a given number.
 
     Args:
-        n (int): El límite superior para generar números primos.
+        n (int): The upper limit to generate prime numbers.
 
     Returns:
-        list: Una lista de números primos hasta el número n.
+        list: A list of prime numbers up to the number n.
     """
-    primos = []
+    primes = []
     for num in range(2, n + 1):
-        if es_primo(num):
-            primos.append(num)
-    return primos
+        if is_prime(num):
+            primes.append(num)
+    return primes
+
+def main():
+    """
+    Main function to check if a user-provided number is prime.
+    """
+    try:
+        number = int(input("Enter a number to check if it is prime: "))
+        if is_prime(number):
+            print(f"{number} is a prime number.")
+        else:
+            print(f"{number} is not a prime number.")
+    except ValueError:
+        print("Please enter a valid integer.")
 
 if __name__ == "__main__":
-    limite = int(input("Introduce el límite superior para encontrar números primos: "))
-    lista_primos = primos_hasta(limite)
-    print(f"Números primos hasta {limite}: {lista_primos}")
+    main()
